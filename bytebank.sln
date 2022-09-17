@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.3.32901.215
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "bytebank", "bytebank\bytebank.csproj", "{2D010C57-F3CA-44BF-B1DF-6AC886BDE207}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "bytebank", "bytebank\bytebank.csproj", "{2D010C57-F3CA-44BF-B1DF-6AC886BDE207}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "supermercadomenorpreco", "supermercadomenorpreco\supermercadomenorpreco.csproj", "{40F0F7AF-74A9-4BFB-AA00-91AF8CF57D80}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{2D010C57-F3CA-44BF-B1DF-6AC886BDE207}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2D010C57-F3CA-44BF-B1DF-6AC886BDE207}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2D010C57-F3CA-44BF-B1DF-6AC886BDE207}.Release|Any CPU.Build.0 = Release|Any CPU
+		{40F0F7AF-74A9-4BFB-AA00-91AF8CF57D80}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{40F0F7AF-74A9-4BFB-AA00-91AF8CF57D80}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{40F0F7AF-74A9-4BFB-AA00-91AF8CF57D80}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{40F0F7AF-74A9-4BFB-AA00-91AF8CF57D80}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
