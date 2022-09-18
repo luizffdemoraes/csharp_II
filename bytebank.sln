@@ -7,6 +7,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "bytebank", "bytebank\byteba
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "supermercadomenorpreco", "supermercadomenorpreco\supermercadomenorpreco.csproj", "{40F0F7AF-74A9-4BFB-AA00-91AF8CF57D80}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "sistemamedico", "sistemamedico\sistemamedico.csproj", "{4E44D0B1-DB17-4B37-BB0C-5FD0A48498F0}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{40F0F7AF-74A9-4BFB-AA00-91AF8CF57D80}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{40F0F7AF-74A9-4BFB-AA00-91AF8CF57D80}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{40F0F7AF-74A9-4BFB-AA00-91AF8CF57D80}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4E44D0B1-DB17-4B37-BB0C-5FD0A48498F0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4E44D0B1-DB17-4B37-BB0C-5FD0A48498F0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4E44D0B1-DB17-4B37-BB0C-5FD0A48498F0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4E44D0B1-DB17-4B37-BB0C-5FD0A48498F0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
