@@ -55,4 +55,9 @@ conta2.ExibirDadosDaConta();
 //console.writeline("número da agencia: " + conta1.nome_agencia);
 //console.writeline("saldo: " + conta1.saldo);
 
+Cliente cliente = new Cliente();
+cliente.nome = "Andre Silva";
+cliente.cpf = "10253541263";
+cliente.profissao = "Programador C#";
+
 Console.ReadKey();
