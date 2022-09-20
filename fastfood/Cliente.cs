@@ -11,6 +11,6 @@ namespace fastfood
         public string nome;
         public string cpf;
         public string email;
-        public string endereco;
+        public Endereco endereco;
     }
 }

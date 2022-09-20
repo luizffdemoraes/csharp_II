@@ -8,9 +8,9 @@ namespace fastfood
 {
     public class Pedido
     {
-        public double valor_pedido;
+        public int numero_Pedido;
         public Cliente cliente;
-        public int itens_selecionados;
-
+        public ItemPedido item;
+        public float total_Pedido;
     }
 }
