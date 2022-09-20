@@ -56,9 +56,26 @@ Console.WriteLine("Boas Vindas ao seu banco, ByteBank!");
 //console.writeline("saldo: " + conta1.saldo);
 
 Cliente cliente = new Cliente();
-Console.WriteLine("Ola!");
-//cliente.nome = "Andre Silva";
-//cliente.cpf = "10253541263";
-//cliente.profissao = "Programador C#";
+
+cliente.nome = "Andre Silva";
+cliente.cpf = "10253541263";
+cliente.profissao = "Programador C#";
+
+ContaCorrente conta3 = new ContaCorrente();
+conta3.titular = new Cliente();
+//conta3.titular.nome = "Andre Silva";
+//conta3.titular.cpf = "10253541263";
+//conta3.titular.profissao = "Programador C#";
+conta3.conta = "2513252-X";
+conta3.numero_agencia = 35;
+conta3.nome_agencia = "Agencia Central";
+
+//Console.WriteLine(cliente.nome);
+if(conta3.titular==null)
+{
+    Console.WriteLine("O campo titular está nulo.");
+}
+
+//Console.WriteLine(conta3.titular.nome);
 
 Console.ReadKey();
