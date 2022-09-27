@@ -5,9 +5,11 @@ VisualStudioVersion = 17.3.32901.215
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "bytebank", "bytebank\bytebank.csproj", "{2D010C57-F3CA-44BF-B1DF-6AC886BDE207}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "supermercadomenorpreco", "supermercadomenorpreco\supermercadomenorpreco.csproj", "{40F0F7AF-74A9-4BFB-AA00-91AF8CF57D80}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "supermercadomenorpreco", "supermercadomenorpreco\supermercadomenorpreco.csproj", "{40F0F7AF-74A9-4BFB-AA00-91AF8CF57D80}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "sistemamedico", "sistemamedico\sistemamedico.csproj", "{4E44D0B1-DB17-4B37-BB0C-5FD0A48498F0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "sistemamedico", "sistemamedico\sistemamedico.csproj", "{4E44D0B1-DB17-4B37-BB0C-5FD0A48498F0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "fastfood", "fastfood\fastfood.csproj", "{4ADE2F68-66E6-45A9-BB39-23F4329252B6}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -27,6 +29,10 @@ Global
 		{4E44D0B1-DB17-4B37-BB0C-5FD0A48498F0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4E44D0B1-DB17-4B37-BB0C-5FD0A48498F0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4E44D0B1-DB17-4B37-BB0C-5FD0A48498F0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4ADE2F68-66E6-45A9-BB39-23F4329252B6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4ADE2F68-66E6-45A9-BB39-23F4329252B6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4ADE2F68-66E6-45A9-BB39-23F4329252B6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4ADE2F68-66E6-45A9-BB39-23F4329252B6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

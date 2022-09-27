@@ -55,27 +55,43 @@ Console.WriteLine("Boas Vindas ao seu banco, ByteBank!");
 //console.writeline("número da agencia: " + conta1.nome_agencia);
 //console.writeline("saldo: " + conta1.saldo);
 
-Cliente cliente = new Cliente();
+//Cliente cliente = new Cliente();
 
-cliente.nome = "Andre Silva";
-cliente.cpf = "10253541263";
-cliente.profissao = "Programador C#";
+//cliente.nome = "Andre Silva";
+//cliente.cpf = "10253541263";
+//cliente.profissao = "Programador C#";
 
-ContaCorrente conta3 = new ContaCorrente();
-conta3.titular = new Cliente();
+//ContaCorrente conta3 = new ContaCorrente();
+//conta3.titular = new Cliente();
 //conta3.titular.nome = "Andre Silva";
 //conta3.titular.cpf = "10253541263";
 //conta3.titular.profissao = "Programador C#";
-conta3.conta = "2513252-X";
-conta3.numero_agencia = 35;
-conta3.nome_agencia = "Agencia Central";
+//conta3.conta = "2513252-X";
+//conta3.numero_agencia = 35;
+//conta3.nome_agencia = "Agencia Central";
 
 //Console.WriteLine(cliente.nome);
-if(conta3.titular==null)
-{
-    Console.WriteLine("O campo titular está nulo.");
-}
+//if(conta3.titular==null)
+//{
+//    Console.WriteLine("O campo titular está nulo.");
+//}
 
 //Console.WriteLine(conta3.titular.nome);
+
+//Cliente sarah = new Cliente();
+//sarah.Nome = "Sarah Silva";
+
+//ContaCorrente conta4 = new ContaCorrente(235, "125358-X");
+//conta4.Saldo =100;
+//conta4.Titular = sarah;
+//conta4.Numero_Agencia = -10;
+//Console.WriteLine("Saldo: "+conta4.Titular.Nome);
+//Console.WriteLine("Saldo: "+conta4.Saldo);
+//Console.WriteLine(conta4.Numero_Agencia);
+//Console.WriteLine(conta4.Conta);
+
+ContaCorrente conta5 = new ContaCorrente(235, "125358-X");
+ContaCorrente conta6 = new ContaCorrente(365, "957256-X");
+Console.WriteLine(ContaCorrente.TotalDeContasCriadas);
 
 Console.ReadKey();
